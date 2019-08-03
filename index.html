@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #input,
+    .search {
+      width: 600px;
+      height: var(--height);
+    }
+
+    #input {
+      outline: none;
+      background: transparent;
+      color: hsl(0, 0%, 90%);
+      border: none;
+      font-size: 24px;
+      line-height: var(--height);
+      padding: 0px 40px;
+      -webkit-app-region: drag;
+      cursor: default;
+    }
+
+    body {
+      margin: 0px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      background: hsla(0, 0%, 10%, 0.95);
+      overflow-x: hidden;
+      --height: 60px;
+      transition: background-color 300ms;
+      color: hsl(0, 0%, 90%);
+    }
+
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    .row {
+      height: 30px;
+      /* border-top: 1px solid hsl(0, 0%, 50%); */
+      font-size: 16px;
+      padding: 6px 14px;
+      box-sizing: border-box;
+    }
+
+    .selected.row {
+      background: hsla(224, 93%, 70%, 0.95);
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="search">
+    <input type="text" id="input" autofocus>
+  </div>
+  <div class="output">
+    <div class="row selected"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+  </div>
+  <script src="action.js"></script>
+  <script src="client.js"></script>
+</body>
+
+</html>

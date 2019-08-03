@@ -1,0 +1,33 @@
+[
+  {
+    "name": "mpsyt",
+    "shell": "ttab -w 'mpsyt'"
+  },
+  {
+    "name": "google chrome",
+    "shell": "open /Applications/Google\\ Chrome.app/"
+  },
+  {
+    "name": "terminal",
+    "shell": "open /Applications/Utilities/Terminal.app/"
+  },
+  {
+    "name": "vs code",
+    "shell": "open /Applications/Visual\\ Studio\\ Code.app "
+  },
+  {
+    "name": "i like pies"
+  },
+  {
+    "name": "wow now that is a"
+  },
+  {
+    "name": "this is a big drill"
+  },
+  {
+    "name": "bing bong you are wrong"
+  },
+  {
+    "name": "this bing is a bong and you are wrong"
+  }
+]
